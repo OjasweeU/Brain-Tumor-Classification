@@ -17,7 +17,10 @@ Since you already have the repository on GitHub, both of these platforms can aut
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
    - **Instance Type**: Free
-5. Click **Create Web Service**.
+5. Open the **"Advanced"** dropdown, click **Add Environment Variable**, and add:
+   - **Name**: `PYTHON_VERSION`
+   - **Value**: `3.10.13`
+6. Click **Create Web Service**.
 6. Wait 3-5 minutes for the build to finish. Once it says "Live", copy the provided URL at the top left (it will look like `https://neuroai-backend-xxxx.onrender.com`).
 
 *Note: Since the backend is running in Mock Mode, it will safely deploy within Render's free RAM limitations.*
