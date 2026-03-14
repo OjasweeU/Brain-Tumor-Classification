@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+tensorflow
+keras
+opencv-python-headless
+numpy
+python-multipart
+tqdm
+imutils

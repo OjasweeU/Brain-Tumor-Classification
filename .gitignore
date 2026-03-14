@@ -1,0 +1,30 @@
+# Python environments and compilation
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env
+
+# NodeJS
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# System files
+.DS_Store
+
+# Large datasets, model files, and downloaded content
+backend/model.h5
+backend/Coursera-Content/
+backend/Crop-Brain-MRI/
+backend/Test-Data/
+Data & Images/
+
+# Temporary generated scripts
+extracted_notebook.py
+extract_code.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
